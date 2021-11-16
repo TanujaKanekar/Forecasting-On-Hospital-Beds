@@ -11,9 +11,9 @@
 <p>Not only it is helpful for people to find the Hospital beds but its important for Hospital Management.The Hospital capacity planning is driven by complex dynamics between input, output and the number of available beds. In normal times, hospitals aim to achieve an optimal bed occupancy by maximizing bed occupancy while minimizing overflow, which often has a negative effect on patient outcomes. However, pandemics and natural disasters typically come with a sudden influx of unforeseen patients, which almost instantly pushes the boundaries of a hospital’s capacity. Frontline health care workers, directly engaged in the diagnosis, treatment, and care for patients with COVID-19, are susceptible to experience psychological burden in return, while also being at greater health risks. Lack of bed capacity, scarcity in supplies and high occupancy rates further increases that burden.</p>
 <p>The ability to predict hospital bed capacity is essential for monitoring and planning purposes during epidemics, such as the ongoing COVID-19 pandemic</p>
 
- ##Project Flow
- <p>Data Understanding:Understanding the attributes of the data, summarize the data by identifying key characteristics, such as data volume and total number of variables. In the     data, missing values ,inaccuracies.<br>
-  EDA(Exploratory Data Analysis):Primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a better understanding of dataset     variables and the relationships between them, also uses various plots for checking normality, outliers etc.
-  Stationarity check:Stationarity means that the statistical properties of a time series do not change over time. It is important because many useful analytical tools and        statistical tests and models rely on it.
+ ## Project Flow
+<p><b>Data Understanding:</b> Understanding the attribu>tes of the data, summarize the data by identifying key characteristics, such as data volume and total number of variables.In the data, missing values ,inaccuracies.</p><br>
+<p><b>EDA(Exploratory Data Analysis):</b>Primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a better understanding of dataset variables and the relationships between them, also uses various plots for checking normality, outliers etc.</p><br>
+<p><b>Stationarity check:</b>Stationarity means that the statistical properties of a time series do not change over time. It is important because many useful analytical tools and statistical tests and models rely on it.</p><br>
 
 
