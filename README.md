@@ -31,6 +31,9 @@
 <p><b>9)Holts Winter’s Exponential Smoothing Additive Season and Trend:</b>This model has additive trend and seasonality. Here the components add together to make up the time series, the three components added here are –seasonality, trend and error. Thus they kind of exhibit linear pattern.</p>
 <p><b>10)Holts Winter’s Exponential Smoothing Multiplicative Season and  Additive Trend:</b>This model uses Multiplicative seasonality and Additive trend so here the components are multiplied resulting in effect with percentage growth. This shows kind of exponential trend.</p>
 <p><b>11)Prophet:</b>This model is developed by Facebook for univariate time series forecasting and it will automatically provide a good set of hyper parameters.</p> 
+  
+## Evaluation of Models and Final Model Selection
+<img align="center" alt="hospitalbed"  width="700" src="https://github.com/TanujaKanekar/Forecasting-On-Hospital-Beds/blob/main/commission%2C%20Dao%20Dao.jpg">
 
 
 
