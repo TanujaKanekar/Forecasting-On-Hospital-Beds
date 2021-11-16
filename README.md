@@ -18,7 +18,7 @@
 <p><b>Model Building:</b>This process involves setting up ways of collection data, understanding and paying attention to what is important in the data, finding statistical, mathematical or a simulation model to gain understanding and make predictions.</p>
 <p><b>Model Evaluation:</b>It aims to estimate the generalization accuracy of a model on future data. It is a phase  that is decided whether the model performs better.</p>
 <p><b>Model Deployment:</b>It is a task of exposing the model into real use. It is used to integrate the model into an existing production environment to make practical decisions based on data.</p>
-## Models Used
+##Models Used
 <p><b>1) AutoRegressive(AR):</b>This model predicts the future values based on the past values. The process is basically a linear regression of the data in the current series against one or more past values in the same series.</p>
 <p><b>2) Moving Average(MA):</b>This model predicts the future values based on the past error values. The process is basically a linear regression of the data in the current series against one or more past values in the same series.</p>
 <p><b>3) Autoregressive Moving Average(ARMA):</b>This model uses both the AR and MA model to forecast the data. In ARMA it is assumed that the time series is stationary and when it fluctuates, it does so uniformly around a particular time.</p>
