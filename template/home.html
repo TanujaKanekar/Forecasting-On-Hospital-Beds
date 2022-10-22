@@ -1,0 +1,38 @@
+{% extends "main.html" %}
+{% block content %}
+
+ <div class="homeimg">
+   <br>
+  <br>
+  <center><h3>Please enter the input values to find if your Machine will fail or not</h3></center>
+ </div>
+ <body>
+  <img src="/static/css/image/random1.jpg" alt="engine">
+    <form action="{{url_for('predict')}}" method="POST">
+        <label for="Type">Quality type: </label>
+        <input type="text" id="Type" name="Type"><br><br>
+        <label for="AT">Air Temperature:</label>
+        <input type="text" id="AT" name="AT"><br><br>
+        <label for="PT">Process Temperature </label>
+        <input type="text" id="PT" name="PT"><br><br>
+        <label for="RS">Rotational Speed:</label>
+        <input type="text" id="RS" name="RS"><br><br>
+        <label for="T">Torque: </label>
+        <input type="text" id="T" name="T"><br><br>
+        <label for="TW">Tool Wear: </label>
+        <input type="text" id="TW" name="TW"><br><br>
+        <center><input type="submit" value="predict">&nbsp;&nbsp;&nbsp;
+
+        <form action="/action_page.php">
+          <input type="file" id="myFile" name="filename">
+        </form></center>
+
+      </form>
+
+</body>
+
+ </div>       
+ 
+       
+
+{% endblock %}

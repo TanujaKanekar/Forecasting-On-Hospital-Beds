@@ -1,0 +1,50 @@
+{% extends "main.html" %}
+{% block content %}
+
+<center><br><h2>Machine failure prediction </h2><br></center>
+
+<script>
+var a=f1
+var b = f2 
+var c= f3
+var d = f4
+var e = f5
+var f=f6
+
+
+</script>
+<h5> Your data: </h5>
+<table class="table table-striped">
+<thead>
+    <tr>
+        <th>Type</th>
+        <th>AT</th>
+        <th>PT</th>
+        <th>RS</th>
+        <th>Torque</th>
+        <th>Tool wear</th>
+    </tr>
+    
+</thead>
+<tbody>
+    <tr>
+        <td>{{f1}}</td>
+        <td>{{f2}}</td>
+        <td>{{f3}}</td>
+        <td>{{f4}}</td>
+        <td>{{f5}}</td>
+        <td>{{f6}}</td>
+    </tr>
+</tbody>
+</table>
+{{pred_1}}
+<br>
+<br>
+
+{% if pred_1 == 1%}
+    <center><h2 style="color:red;">Machine Failed</h2></center>
+{% elif pred_1 == 0%}
+    <center><h2 style="color:blue;">Your machine is healthy, for now !!</h2></center>
+{% endif %}
+
+{% endblock %}   
