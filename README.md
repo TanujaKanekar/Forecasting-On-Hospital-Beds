@@ -35,6 +35,10 @@
 ## Evaluation of Models and Final Model Selection
 <img align="center" alt="hospitalbed"  width="700" src="https://github.com/TanujaKanekar/Forecasting-On-Hospital-Beds/blob/main/Image_Evaluation.png">
 
+## Final Model Selected
+- The Final Model we selected was Fbprophet.
+- Deployed the Model using Flask
+
 
 
 
