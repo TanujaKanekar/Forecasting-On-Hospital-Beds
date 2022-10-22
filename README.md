@@ -41,7 +41,10 @@
 
 ## Flask Deployment
 ### Input Page
-<img align="center" alt="InputPage"  width="700" src="
+<img align="center" alt="InputPage"  width="700" src="https://github.com/TanujaKanekar/Forecasting-On-Hospital-Beds/blob/main/fb1.png">
+
+### Output Page
+<<img align="center" alt="InputPage"  width="700" src="
 
 
 
