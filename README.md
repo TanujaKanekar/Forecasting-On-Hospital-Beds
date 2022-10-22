@@ -39,6 +39,12 @@
 - The Final Model we selected was Fbprophet.
 - Deployed the Model using Flask
 
+## Flask Deployment
+### Input Page
+<img align="center" alt="InputPage"  width="700" src="
+
+
+
 
 
 
